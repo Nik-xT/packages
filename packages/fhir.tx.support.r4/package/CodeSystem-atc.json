@@ -16819,8 +16819,9 @@
                     {
                       "code" : "L01XL04",
                       "display" : "tisagenlecleucel"
-                    },
+                    }
                   ]
+                },
                 {
                   "code" : "L01XX",
                   "display" : "Other antineoplastic agents",
