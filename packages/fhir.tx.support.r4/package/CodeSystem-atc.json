@@ -14999,28 +14999,12 @@
                       "display" : "mumps immunoglobulin"
                     },
                     {
-                      "code" : "J06BB16",
-                      "display" : "palivizumab"
-                    },
-                    {
-                      "code" : "J06BB17",
-                      "display" : "motavizumab"
-                    },
-                    {
-                      "code" : "J06BB18",
-                      "display" : "raxibacumab"
-                    },
-                    {
                       "code" : "J06BB19",
                       "display" : "anthrax immunoglobulin"
                     },
                     {
                       "code" : "J06BB21",
                       "display" : "bezlotoxumab"
-                    },
-                    {
-                      "code" : "J06BB22",
-                      "display" : "obiltoxaximab"
                     },
                     {
                       "code" : "J06BB30",
@@ -15030,11 +15014,37 @@
                 },
                 {
                   "code" : "J06BC",
-                  "display" : "Other immunoglobulins",
+                  "display" : "Antibacterial monoclonal antibodies",
                   "concept" : [
                     {
                       "code" : "J06BC01",
                       "display" : "nebacumab"
+                    },
+                    {
+                      "code" : "J06BC02",
+                      "display" : "raxibacumab"
+                    },
+                    {
+                      "code" : "J06BC03",
+                      "display" : "bezlotoxumab"
+                    },
+                    {
+                      "code" : "J06BC04",
+                      "display" : "obiltoxaximab"
+                    }
+                  ]
+                },
+                {
+                  "code" : "J06BD",
+                  "display" : "Antiviral monoclonal antibodies",
+                  "concept" : [
+                    {
+                      "code" : "J06BD01",
+                      "display" : "palivizumab"
+                    },
+                    {
+                      "code" : "J06BD02",
+                      "display" : "motavizumab"
                     }
                   ]
                 }
@@ -16285,6 +16295,20 @@
                   ]
                 },
                 {
+                  "code" : "L01EN",
+                  "display" : "Fibroblast growth factor receptor (FGFR) tyrosine kinase inhibitors",
+                  "concept" : [
+                    {
+                      "code" : "L01EN01",
+                      "display" : "erdafitinib"
+                    },
+                    {
+                      "code" : "L01EN02",
+                      "display" : "pemigatinib"
+                    }
+                  ]
+                },
+                {
                   "code" : "L01EM",
                   "display" : "Phosphatidylinositol-3-kinase (Pi3K) inhibitors",
                   "concept" : [
@@ -16371,10 +16395,6 @@
                       "display" : "pexidartinib"
                     },
                     {
-                      "code" : "L01EX16",
-                      "display" : "erdafitinib"
-                    },
-                    {
                       "code" : "L01EX17",
                       "display" : "capmatinib"
                     },
@@ -16387,10 +16407,6 @@
                       "display" : "ripretinib"
                     },
                     {
-                      "code" : "L01EX20",
-                      "display" : "pemigatinib"
-                    },
-                    {
                       "code" : "L01EX21",
                       "display" : "tepotinib"
                     }
@@ -16398,6 +16414,216 @@
                 }
               ]
             },
+            {
+              "code" : "L01F",
+              "display" : "MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES",
+              "concept" : [
+                {
+                  "code" : "L01FA",
+                  "display" : "CD20 (Clusters of Differentiation 20) inhibitors",
+                  "concept" : [
+                    {
+                      "code" : "L01FA01",
+                      "display" : "rituximab"
+                    },
+                    {
+                      "code" : "L01FA02",
+                      "display" : "ofatumumab"
+                    },
+                    {
+                      "code" : "L01FA03",
+                      "display" : "ofatumumab"
+                    }
+                  ]
+                },
+                {
+                  "code" : "L01FB",
+                  "display" : "CD22 (Clusters of Differentiation 22) inhibitors",
+                  "concept" : [
+                    {
+                      "code" : "L01FB01",
+                      "display" : "inotuzumab ozogamicin"
+                    },
+                    {
+                      "code" : "L01FB02",
+                      "display" : "moxetumomab pasudotox"
+                    }
+                  ]
+                },
+                {
+                  "code" : "L01FC",
+                  "display" : "CD38 (Clusters of Differentiation 38) inhibitors",
+                  "concept" : [
+                    {
+                      "code" : "L01FC01",
+                      "display" : "daratumumab"
+                    },
+                    {
+                      "code" : "L01FC02",
+                      "display" : "isatuximab"
+                    }
+                  ]
+                },
+                {
+                  "code" : "L01FD",
+                  "display" : "HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors",
+                  "concept" : [
+                    {
+                      "code" : "L01FD01",
+                      "display" : "trastuzumab"
+                    },
+                    {
+                      "code" : "L01FD02",
+                      "display" : "pertuzumab"
+                    },
+                    {
+                      "code" : "L01FD03",
+                      "display" : "trastuzumab emtansine"
+                    },
+                    {
+                      "code" : "L01FD04",
+                      "display" : "trastuzumab deruxtecan"
+                    }
+                  ]
+                },
+                {
+                  "code" : "L01FE",
+                  "display" : "EGFR (Epidermal Growth Factor Receptor) inhibitors",
+                  "concept" : [
+                    {
+                      "code" : "L01FE01",
+                      "display" : "cetuximab"
+                    },
+                    {
+                      "code" : "L01FE02",
+                      "display" : "panitumumab"
+                    },
+                    {
+                      "code" : "L01FE03",
+                      "display" : "necitumumab"
+                    }
+                  ]
+                },
+                {
+                  "code" : "L01FF",
+                  "display" : "PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors",
+                  "concept" : [
+                    {
+                      "code" : "L01FF01",
+                      "display" : "nivolumab"
+                    },
+                    {
+                      "code" : "L01FF02",
+                      "display" : "pembrolizumab"
+                    },
+                    {
+                      "code" : "L01FF03",
+                      "display" : "durvalumab"
+                    },
+                    {
+                      "code" : "L01FF04",
+                      "display" : "avelumab"
+                    },
+                    {
+                      "code" : "L01FF05",
+                      "display" : "atezolizumab"
+                    },
+                    {
+                      "code" : "L01FF06",
+                      "display" : "cemiplimab"
+                    },
+                    {
+                      "code" : "L01FF07",
+                      "display" : "dostarlimab"
+                    },
+                    {
+                      "code" : "L01FF08",
+                      "display" : "prolgolimab"
+                    }
+                  ]
+                },
+                {
+                  "code" : "L01FG",
+                  "display" : "VEGF/VEGFR (Vascular Endothelial Growth Factor) inhibitors",
+                  "concept" : [
+                    {
+                      "code" : "L01FG01",
+                      "display" : "bevacizumab"
+                    },
+                    {
+                      "code" : "L01FG02",
+                      "display" : "ramucirumab"
+                    }
+                  ]
+                },
+                {
+                  "code" : "L01FX",
+                  "display" : "Other monoclonal antibodies and antibody drug conjugates",
+                  "concept" : [
+                    {
+                      "code" : "L01FX01",
+                      "display" : "edrecolomab"
+                    },
+                    {
+                      "code" : "L01FX02",
+                      "display" : "gemtuzumab ozogamicin"
+                    },
+                    {
+                      "code" : "L01FX03",
+                      "display" : "catumaxomab"
+                    },
+                    {
+                      "code" : "L01FX04",
+                      "display" : "ipilimumab"
+                    },
+                    {
+                      "code" : "L01FX05",
+                      "display" : "brentuximab vedotin"
+                    },
+                    {
+                      "code" : "L01FX06",
+                      "display" : "dinutuximab beta"
+                    },
+                    {
+                      "code" : "L01FX07",
+                      "display" : "blinatumomab"
+                    },
+                    {
+                      "code" : "L01FX08",
+                      "display" : "elotuzumab"
+                    },
+                    {
+                      "code" : "L01FX09",
+                      "display" : "mogamulizumab"
+                    },
+                    {
+                      "code" : "L01FX10",
+                      "display" : "olaratumab"
+                    },
+                    {
+                      "code" : "L01FX11",
+                      "display" : "bermekimab"
+                    },
+                    {
+                      "code" : "L01FX12",
+                      "display" : "tafasitamab"
+                    },
+                    {
+                      "code" : "L01FX13",
+                      "display" : "enfortumab vedotin"
+                    },
+                    {
+                      "code" : "L01FX14",
+                      "display" : "polatuzumab vedotin"
+                    },
+                    {
+                      "code" : "L01FX15",
+                      "display" : "belantamab mafodotin"
+                    }
+                  ]
+                }
+              ]
+            },              
             {
               "code" : "L01X",
               "display" : "OTHER ANTINEOPLASTIC AGENTS",
@@ -16435,164 +16661,6 @@
                     {
                       "code" : "L01XB01",
                       "display" : "procarbazine"
-                    }
-                  ]
-                },
-                {
-                  "code" : "L01XC",
-                  "display" : "Monoclonal antibodies",
-                  "concept" : [
-                    {
-                      "code" : "L01XC01",
-                      "display" : "edrecolomab"
-                    },
-                    {
-                      "code" : "L01XC02",
-                      "display" : "rituximab"
-                    },
-                    {
-                      "code" : "L01XC03",
-                      "display" : "trastuzumab"
-                    },
-                    {
-                      "code" : "L01XC05",
-                      "display" : "gemtuzumab ozogamicin"
-                    },
-                    {
-                      "code" : "L01XC06",
-                      "display" : "cetuximab"
-                    },
-                    {
-                      "code" : "L01XC07",
-                      "display" : "bevacizumab"
-                    },
-                    {
-                      "code" : "L01XC08",
-                      "display" : "panitumumab"
-                    },
-                    {
-                      "code" : "L01XC09",
-                      "display" : "catumaxomab"
-                    },
-                    {
-                      "code" : "L01XC10",
-                      "display" : "ofatumumab"
-                    },
-                    {
-                      "code" : "L01XC11",
-                      "display" : "ipilimumab"
-                    },
-                    {
-                      "code" : "L01XC12",
-                      "display" : "brentuximab vedotin"
-                    },
-                    {
-                      "code" : "L01XC13",
-                      "display" : "pertuzumab"
-                    },
-                    {
-                      "code" : "L01XC14",
-                      "display" : "trastuzumab emtansine"
-                    },
-                    {
-                      "code" : "L01XC15",
-                      "display" : "obinutuzumab"
-                    },
-                    {
-                      "code" : "L01XC16",
-                      "display" : "dinutuximab beta"
-                    },
-                    {
-                      "code" : "L01XC17",
-                      "display" : "nivolumab"
-                    },
-                    {
-                      "code" : "L01XC18",
-                      "display" : "pembrolizumab"
-                    },
-                    {
-                      "code" : "L01XC19",
-                      "display" : "blinatumomab"
-                    },
-                    {
-                      "code" : "L01XC21",
-                      "display" : "ramucirumab"
-                    },
-                    {
-                      "code" : "L01XC22",
-                      "display" : "necitumumab"
-                    },
-                    {
-                      "code" : "L01XC23",
-                      "display" : "elotuzumab"
-                    },
-                    {
-                      "code" : "L01XC24",
-                      "display" : "daratumumab"
-                    },
-                    {
-                      "code" : "L01XC25",
-                      "display" : "mogamulizumab"
-                    },
-                    {
-                      "code" : "L01XC26",
-                      "display" : "inotuzumab ozogamicin"
-                    },
-                    {
-                      "code" : "L01XC27",
-                      "display" : "olaratumab"
-                    },
-                    {
-                      "code" : "L01XC28",
-                      "display" : "durvalumab"
-                    },
-                    {
-                      "code" : "L01XC29",
-                      "display" : "bermekimab"
-                    },
-                    {
-                      "code" : "L01XC31",
-                      "display" : "avelumab"
-                    },
-                    {
-                      "code" : "L01XC32",
-                      "display" : "atezolizumab"
-                    },
-                    {
-                      "code" : "L01XC33",
-                      "display" : "cemiplimab"
-                    },
-                    {
-                      "code" : "L01XC34",
-                      "display" : "moxetumomab pasudotox"
-                    },
-                    {
-                      "code" : "L01XC35",
-                      "display" : "tafasitamab"
-                    },
-                    {
-                      "code" : "L01XC36",
-                      "display" : "enfortumab vedotin"
-                    },
-                    {
-                      "code" : "L01XC37",
-                      "display" : "polatuzumab vedotin"
-                    },
-                    {
-                      "code" : "L01XC38",
-                      "display" : "isatuximab"
-                    },
-                    {
-                      "code" : "L01XC39",
-                      "display" : "belantamab mafodotin"
-                    },
-                    {
-                      "code" : "L01XC40",
-                      "display" : "dostarlimab"
-                    },
-                    {
-                      "code" : "L01XC41",
-                      "display" : "trastuzumab deruxtecan"
                     }
                   ]
                 },
